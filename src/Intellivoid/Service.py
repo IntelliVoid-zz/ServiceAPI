@@ -1,5 +1,4 @@
 import json
-from Intellivoid.AuthToken import AuthToken
 from Intellivoid.RequestHandler import RequestHandler
 
 class Service:
