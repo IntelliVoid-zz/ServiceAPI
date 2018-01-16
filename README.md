@@ -40,7 +40,7 @@ This will allow you to generate a key for a consumer to use, Followed by the amo
 ```python
 from Intellivoid.Service import Service
 API = Service('API_ENDPOINT_URL', 'SERVICE_AUTHKEY')
-Response = API.generateKey()
+Response = API.generateKey(500)
 
 print("Public Key: %s" %(Response['PublicKey']))
 print("Auth Key: %s" %(Response['AuthKey']))
