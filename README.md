@@ -94,7 +94,7 @@ for Key in API.fetchKeys():
     print("Registered Username: %s" %(str(Key['RegisteredUsername'])))
 ```
 ---
-### Add Quota
+### Increase Quota
 This action will allow you to increase the quota of a activated API Key
 
 ```python
